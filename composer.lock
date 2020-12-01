@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc4af56acb13e4c0862b846cc132f945",
+    "content-hash": "d63e5d1063345a5f7c1d67fdc84c740b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2290,6 +2290,78 @@
             }
         },
         {
+            "name": "drupal/conditional_fields",
+            "version": "1.0.0-alpha9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/conditional_fields.git",
+                "reference": "8.x-1.0-alpha9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha9.zip",
+                "reference": "8.x-1.0-alpha9",
+                "shasum": "74448f9fbd7a2ac83bea49fec75736b4932c8fc4"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha9",
+                    "datestamp": "1596049134",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Adyax",
+                    "homepage": "https://www.adyax.com/"
+                },
+                {
+                    "name": "OlgaRabodzei",
+                    "homepage": "https://www.drupal.org/user/3389198"
+                },
+                {
+                    "name": "colan",
+                    "homepage": "https://www.drupal.org/user/58704"
+                },
+                {
+                    "name": "ergonlogic",
+                    "homepage": "https://www.drupal.org/user/368613"
+                },
+                {
+                    "name": "geek-merlin",
+                    "homepage": "https://www.drupal.org/user/229048"
+                },
+                {
+                    "name": "itsekhmistro",
+                    "homepage": "https://www.drupal.org/user/928152"
+                },
+                {
+                    "name": "peterpoe",
+                    "homepage": "https://www.drupal.org/user/55674"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Conditional fields",
+            "homepage": "https://www.drupal.org/project/conditional_fields",
+            "support": {
+                "source": "https://git.drupalcode.org/project/conditional_fields"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "8.9.10",
             "source": {
@@ -3899,6 +3971,62 @@
             }
         },
         {
+            "name": "drupal/klaro",
+            "version": "2.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/klaro.git",
+                "reference": "8.x-2.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/klaro-8.x-2.0-beta2.zip",
+                "reference": "8.x-2.0-beta2",
+                "shasum": "8c63557600648b34b0d95d30491bbcd190fd26ed"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0-beta2",
+                    "datestamp": "1598866846",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "CKIDOW",
+                    "homepage": "https://www.drupal.org/user/255262"
+                },
+                {
+                    "name": "ckaotik",
+                    "homepage": "https://www.drupal.org/user/2253676"
+                },
+                {
+                    "name": "jan kellermann",
+                    "homepage": "https://www.drupal.org/user/371731"
+                }
+            ],
+            "description": "Implements the Klaro! consent manager utility into Drupal.",
+            "homepage": "https://www.drupal.org/project/klaro",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/klaro",
+                "issues": "https://www.drupal.org/project/issues/klaro"
+            }
+        },
+        {
             "name": "drupal/linkit",
             "version": "5.0.0-beta11",
             "source": {
@@ -4969,6 +5097,75 @@
             "homepage": "https://www.drupal.org/project/r4032login",
             "support": {
                 "source": "https://git.drupalcode.org/project/r4032login"
+            }
+        },
+        {
+            "name": "drupal/rabbit_hole",
+            "version": "1.0.0-beta8",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rabbit_hole.git",
+                "reference": "8.x-1.0-beta8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rabbit_hole-8.x-1.0-beta8.zip",
+                "reference": "8.x-1.0-beta8",
+                "shasum": "cd78377802a4913d719a70ba9858146c15361c97"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "require-dev": {
+                "drupal/commerce_product": "*",
+                "drupal/file_entity": "*",
+                "drupal/group": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta8",
+                    "datestamp": "1606119907",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dylan Donkersgoed",
+                    "homepage": "https://www.drupal.org/user/2803351"
+                },
+                {
+                    "name": "Matroskeen",
+                    "homepage": "https://www.drupal.org/user/3426249"
+                },
+                {
+                    "name": "Odd Hill",
+                    "homepage": "https://www.drupal.org/user/789934"
+                },
+                {
+                    "name": "mparker17",
+                    "homepage": "https://www.drupal.org/user/536298"
+                },
+                {
+                    "name": "olofbokedal",
+                    "homepage": "https://www.drupal.org/user/1198438"
+                },
+                {
+                    "name": "shumushin",
+                    "homepage": "https://www.drupal.org/user/22093"
+                }
+            ],
+            "description": "Basic functionality that is shared among the different Rabbit Hole modules.",
+            "homepage": "https://www.drupal.org/project/rabbit_hole",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rabbit_hole"
             }
         },
         {
@@ -15955,6 +16152,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/conditional_fields": 15,
+        "drupal/klaro": 10,
+        "drupal/rabbit_hole": 10,
         "mediacurrent/ci-tests": 20
     },
     "prefer-stable": true,
