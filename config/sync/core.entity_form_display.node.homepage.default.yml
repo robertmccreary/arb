@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.homepage.field_banking_type
     - field.field.node.homepage.field_content
     - field.field.node.homepage.field_meta_tags
     - field.field.node.homepage.field_short_title
@@ -23,46 +24,64 @@ third_party_settings:
       children:
         - title
         - field_short_title
-      parent_name: ''
-      weight: 0
-      format_type: fieldset
+        - field_banking_type
+      parent_name: group_homepage_content
+      weight: 1
+      format_type: tab
       format_settings:
         id: ''
         classes: ''
         open: true
         required_fields: true
         description: ''
+        formatter: closed
       label: Basic
       region: content
     group_summary:
       children:
         - field_thumbnail
         - field_summary
-      parent_name: ''
-      weight: 1
-      format_type: fieldset
+      parent_name: group_homepage_content
+      weight: 2
+      format_type: tab
       format_settings:
         id: ''
         classes: ''
         open: true
         required_fields: true
         description: ''
+        formatter: closed
       label: Summary
       region: content
     group_content:
       children:
         - field_content
-      parent_name: ''
-      weight: 2
-      format_type: fieldset
+      parent_name: group_homepage_content
+      weight: 3
+      format_type: tab
       format_settings:
         id: ''
         classes: ''
         open: true
         required_fields: true
         description: ''
+        formatter: closed
       label: Content
       region: content
+    group_homepage_content:
+      children:
+        - group_basic
+        - group_summary
+        - group_content
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      region: content
+      format_settings:
+        id: ''
+        classes: ''
+        direction: vertical
+      label: Content
 _core:
   default_config_hash: uZdiCj29kAJckW3QPppqrn_x5ACvHpiZfmNqyfBT0jw
 id: node.homepage.default
@@ -72,9 +91,15 @@ mode: default
 content:
   created:
     type: datetime_timestamp
-    weight: 5
+    weight: 4
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_banking_type:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
     region: content
   field_content:
     type: paragraphs_browser
@@ -104,9 +129,10 @@ content:
     region: content
   field_meta_tags:
     type: metatag_firehose
-    weight: 11
+    weight: 9
     region: content
-    settings: {  }
+    settings:
+      sidebar: true
     third_party_settings: {  }
   field_short_title:
     weight: 2
@@ -133,7 +159,7 @@ content:
     region: content
   langcode:
     type: language_select
-    weight: 3
+    weight: 1
     settings:
       include_locked: true
     third_party_settings: {  }
@@ -146,18 +172,18 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 7
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     region: content
   publish_on:
     type: datetime_timestamp_no_default
-    weight: 8
+    weight: 7
     settings: {  }
     third_party_settings: {  }
     region: content
   scheduler_settings:
-    weight: 6
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -165,7 +191,7 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 14
+    weight: 11
     region: content
     third_party_settings: {  }
   title:
@@ -183,7 +209,7 @@ content:
     region: content
   uid:
     type: entity_reference_autocomplete
-    weight: 4
+    weight: 3
     settings:
       match_operator: CONTAINS
       size: 60
@@ -193,12 +219,12 @@ content:
     region: content
   unpublish_on:
     type: datetime_timestamp_no_default
-    weight: 9
+    weight: 8
     settings: {  }
     third_party_settings: {  }
     region: content
   url_redirects:
-    weight: 12
+    weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }

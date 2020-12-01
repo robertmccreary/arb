@@ -23,6 +23,7 @@ third_party_settings:
     unpublish_required: false
     unpublish_revision: false
     publish_past_date_created: false
+    show_message_after_update: true
   node_revision_delete:
     minimum_revisions_to_keep: 3
     minimum_age_to_delete: 0
@@ -31,7 +32,7 @@ _core:
   default_config_hash: kioU2d4mJaZuhilzQZAfOCAK9yry1xLFevJ9fFXQ3xU
 name: Homepage
 type: homepage
-description: 'Site homepage.'
+description: '<em>Homepages</em> are used for banking type index pages.'
 help: ''
 new_revision: true
 preview_mode: 0

@@ -1,0 +1,29 @@
+uuid: 259b2cdb-ee6f-4899-b5cd-21c9e58182d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banking_type
+    - node.type.page
+    - taxonomy.vocabulary.t_business_type
+id: node.page.field_banking_type
+field_name: field_banking_type
+entity_type: node
+bundle: page
+label: 'Banking Type'
+description: 'Used to determine the URL structure and organisation of content.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      t_business_type: t_business_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

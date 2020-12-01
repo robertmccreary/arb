@@ -1,0 +1,19 @@
+uuid: a373408b-edca-4806-8533-73c7e64fb421
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_banking_url
+    - taxonomy.vocabulary.t_business_type
+id: taxonomy_term.t_business_type.field_banking_url
+field_name: field_banking_url
+entity_type: taxonomy_term
+bundle: t_business_type
+label: 'Banking URL'
+description: 'This determines the URL structure for Banking types pages, e.g. /business/savings/'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

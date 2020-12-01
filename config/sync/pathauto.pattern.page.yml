@@ -9,16 +9,16 @@ _core:
 id: page
 label: Page
 type: 'canonical_entities:node'
-pattern: 'page/[node:title]'
+pattern: '[node:field_banking_type:entity:url]/[node:title]'
 selection_criteria:
-  8ee254b1-8f74-48db-88a6-d2679945ee13:
+  2e7b1fc9-f9d3-43ef-b24d-fc4222c47b63:
     id: node_type
     bundles:
       page: page
     negate: false
     context_mapping:
       node: node
-    uuid: 8ee254b1-8f74-48db-88a6-d2679945ee13
+    uuid: 2e7b1fc9-f9d3-43ef-b24d-fc4222c47b63
 selection_logic: and
 weight: -5
 relationships: {  }

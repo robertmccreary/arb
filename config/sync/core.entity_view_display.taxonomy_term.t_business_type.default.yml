@@ -1,0 +1,32 @@
+uuid: 336729d1-8a3f-4db0-8983-cbb7bdf5ecea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.t_business_type.field_banking_url
+    - taxonomy.vocabulary.t_business_type
+  module:
+    - text
+id: taxonomy_term.t_business_type.default
+targetEntityType: taxonomy_term
+bundle: t_business_type
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_banking_url:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true
