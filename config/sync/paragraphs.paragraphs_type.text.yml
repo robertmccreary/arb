@@ -1,0 +1,17 @@
+uuid: 794d65aa-c5ed-4436-ad37-34f265e3fb51
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://text.svg'
+_core:
+  default_config_hash: 7HEe-tBfVosXA_F96f6ehtff0zdWerKipsM9v2ri4R4
+id: text
+label: Text
+icon_uuid: ce60a27d-7a51-49b6-b1aa-c70baef51663
+icon_default: null
+description: ''
+behavior_plugins: {  }

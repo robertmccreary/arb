@@ -1,0 +1,17 @@
+uuid: 77708cb0-f1d7-4985-906d-6d6a487257fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://card-list.svg'
+_core:
+  default_config_hash: orVaq3IE7HjyMCJHWDen1lyI8ap6e-UUp6xyq1O6xUk
+id: card_list
+label: 'Card List'
+icon_uuid: d4e685cc-a23a-4758-9108-aa53aa64c62b
+icon_default: null
+description: ''
+behavior_plugins: {  }

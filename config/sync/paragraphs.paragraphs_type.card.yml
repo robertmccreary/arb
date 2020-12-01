@@ -1,0 +1,17 @@
+uuid: 743ed467-84eb-4d84-86ae-3039665107f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://card.svg'
+_core:
+  default_config_hash: g21jBYDDHw91sbhm5ZeJseDY8jbu4FEQsy8D7rHx78Y
+id: card
+label: Card
+icon_uuid: d8beccac-f54f-4077-842a-b457b2a1ee9b
+icon_default: null
+description: ''
+behavior_plugins: {  }

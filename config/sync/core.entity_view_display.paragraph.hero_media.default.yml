@@ -1,0 +1,27 @@
+uuid: 2a5e968b-5b82-4d52-93af-84aa9b4ae5d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_media.field_card
+    - paragraphs.paragraphs_type.hero_media
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: uGNv71HUBmJbuiAb4JsWtfE1W4pmRZ8YEl3fQ8SADmQ
+id: paragraph.hero_media.default
+targetEntityType: paragraph
+bundle: hero_media
+mode: default
+content:
+  field_card:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      view_mode: hero_media
+      link: ''
+    third_party_settings: {  }
+hidden:
+  search_api_excerpt: true

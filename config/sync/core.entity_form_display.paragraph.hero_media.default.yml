@@ -1,0 +1,44 @@
+uuid: 93a8c06b-187f-4fab-8978-682002e50d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_media.field_card
+    - paragraphs.paragraphs_type.hero_media
+  module:
+    - paragraphs
+    - paragraphs_features
+_core:
+  default_config_hash: f-gpWIaJaMzGfk3DoMbvPMXb05SPf9p0-nHbc1Q0Cig
+id: paragraph.hero_media.default
+targetEntityType: paragraph
+bundle: hero_media
+mode: default
+content:
+  field_card:
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: 0
+      add_mode: dropdown
+      form_display_mode: card_nested
+      default_paragraph_type: card
+      features:
+        duplicate: '0'
+        collapse_edit_all: '0'
+        add_above: '0'
+    third_party_settings:
+      paragraphs_features:
+        delete_confirmation: false
+        add_in_between: false
+        split_text: false
+    type: paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

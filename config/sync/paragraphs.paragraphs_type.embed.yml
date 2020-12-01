@@ -1,0 +1,17 @@
+uuid: d23b9929-ec20-4975-a8cb-66771c5d34a1
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://embed.svg'
+_core:
+  default_config_hash: 5Jplq-Ft1cQ1NGM-pJ_tCx5zSpbeWSqvVqBCV6rAauo
+id: embed
+label: Embed
+icon_uuid: e19ec30a-bbbe-4c44-b404-0472d38154ea
+icon_default: null
+description: 'Third party embedded script.'
+behavior_plugins: {  }

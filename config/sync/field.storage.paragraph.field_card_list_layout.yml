@@ -1,0 +1,29 @@
+uuid: ec402a37-76e4-4f23-8b7b-e5593368d31a
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+_core:
+  default_config_hash: jnmrmwM6huiD1gwRlS3IFUEJe4YafWFfTUfhx6LKLYk
+id: paragraph.field_card_list_layout
+field_name: field_card_list_layout
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: columns
+      label: 'Columns (Default)'
+    -
+      value: carousel
+      label: Carousel
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

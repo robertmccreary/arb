@@ -1,0 +1,8 @@
+uuid: 19a2ab29-b11a-4b1b-a40d-d65a92923a58
+langcode: en
+status: true
+dependencies: {  }
+name: 'Business Type'
+vid: t_business_type
+description: 'A category for banking type'
+weight: 0

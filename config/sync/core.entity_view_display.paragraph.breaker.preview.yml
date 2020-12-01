@@ -1,0 +1,28 @@
+uuid: a2c6fc9a-d93a-439e-aab3-ff57aec309e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.breaker.field_card
+    - paragraphs.paragraphs_type.breaker
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: aXsnoEU9mZLsPG8AlHPBLy5S4FHDciNh_5zmOXbmmlI
+id: paragraph.breaker.preview
+targetEntityType: paragraph
+bundle: breaker
+mode: preview
+content:
+  field_card:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: preview
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

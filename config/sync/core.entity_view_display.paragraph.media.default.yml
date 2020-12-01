@@ -1,0 +1,25 @@
+uuid: 0968ad06-1fd6-406d-b9d0-6d0588ea1246
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.media.field_media
+    - paragraphs.paragraphs_type.media
+_core:
+  default_config_hash: iIp1oibvuLg2gcweiwZV1-D0djq3izzFuwF4A1oS8M0
+id: paragraph.media.default
+targetEntityType: paragraph
+bundle: media
+mode: default
+content:
+  field_media:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: original
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  search_api_excerpt: true

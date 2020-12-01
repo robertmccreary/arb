@@ -1,0 +1,17 @@
+uuid: 49e79166-ed7a-475c-af18-3b04d9a169e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://form.svg'
+_core:
+  default_config_hash: cdCw3bL8FM8Q73ueUHh6PBkooCtqDIzaaRdyxAZSmto
+id: form
+label: Form
+icon_uuid: 118c02be-a54b-403a-bb80-abe601e87094
+icon_default: null
+description: ''
+behavior_plugins: {  }

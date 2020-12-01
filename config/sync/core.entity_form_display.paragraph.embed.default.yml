@@ -1,0 +1,36 @@
+uuid: 13d5a0c0-61c6-4edd-99ce-e8f66890a6c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.embed.field_script
+    - field.field.paragraph.embed.field_title
+    - paragraphs.paragraphs_type.embed
+  module:
+    - text
+_core:
+  default_config_hash: wExuAdaEmXNpp5LOtlj9XloYe6QfrhOO1tUDG1bpi9M
+id: paragraph.embed.default
+targetEntityType: paragraph
+bundle: embed
+mode: default
+content:
+  field_script:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,17 @@
+uuid: b1f9e1c9-842f-41ca-9a86-7f0c8f82b9f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://media.svg'
+_core:
+  default_config_hash: EwUMcX4Ds4UCCK8PZE-XjlBrpbWmysMXhBnw65Ta6tA
+id: media
+label: Media
+icon_uuid: 963990b1-52d0-47ac-a918-63f7bc7fdfa9
+icon_default: null
+description: ''
+behavior_plugins: {  }

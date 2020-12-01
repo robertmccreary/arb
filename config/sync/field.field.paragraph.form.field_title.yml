@@ -1,0 +1,21 @@
+uuid: e0123779-8b38-406c-a3cc-9699eb968604
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.form
+_core:
+  default_config_hash: Oa_ORnzrR8fbxThI2jgaxqqM13CpR_MGh5qwgAq-ZTg
+id: paragraph.form.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: form
+label: Title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: 41c42e4f-db18-4a84-88af-dbffe38048ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rain_theme
+id: sitebranding
+theme: rain_theme
+region: header_middle
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

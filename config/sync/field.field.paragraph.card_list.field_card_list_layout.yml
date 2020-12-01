@@ -1,0 +1,23 @@
+uuid: 2e13657f-ad11-4681-9772-0516217e4912
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card_list_layout
+    - paragraphs.paragraphs_type.card_list
+  module:
+    - options
+_core:
+  default_config_hash: 1JmA0yljsGeVaA5G1rT-NGVr9ftpIq24u-XANDrLOs8
+id: paragraph.card_list.field_card_list_layout
+field_name: field_card_list_layout
+entity_type: paragraph
+bundle: card_list
+label: 'Card List Layout'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

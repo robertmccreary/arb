@@ -1,0 +1,66 @@
+uuid: 1c47d895-0633-4175-b3d2-4845b73ed658
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_list.field_card
+    - field.field.paragraph.card_list.field_card_list_layout
+    - field.field.paragraph.card_list.field_link
+    - field.field.paragraph.card_list.field_title
+    - paragraphs.paragraphs_type.card_list
+  module:
+    - paragraphs_browser
+    - paragraphs_features
+_core:
+  default_config_hash: PR7ZD5z7eBCl2StVT_6170u4A0DadFnYqAU6ThzzisY
+id: paragraph.card_list.default
+targetEntityType: paragraph
+bundle: card_list
+mode: default
+content:
+  field_card:
+    type: paragraphs_browser
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      closed_mode_threshold: '0'
+      add_mode: paragraphs_browser
+      form_display_mode: card_nested
+      default_paragraph_type: card
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: 0
+      paragraphs_browser: _na
+      modal_width: 80%
+      modal_height: auto
+    third_party_settings:
+      paragraphs_features:
+        show_drag_and_drop: true
+        delete_confirmation: false
+        add_in_between: false
+        split_text: false
+    region: content
+  field_card_list_layout:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  field_link: true
+  status: true
+  uid: true

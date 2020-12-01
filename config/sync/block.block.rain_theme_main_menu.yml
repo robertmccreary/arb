@@ -1,0 +1,27 @@
+uuid: 5d708f22-15d2-4f32-a1c6-bd4d4fe2594f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - rain_theme
+_core:
+  default_config_hash: TjYZcQXz3v7GAB5ZlW219jI2_J4bwxhrDrjFYA9_dBQ
+id: rain_theme_main_menu
+theme: rain_theme
+region: header_bottom
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 2
+  depth: 0
+  expand_all_items: true
+visibility: {  }

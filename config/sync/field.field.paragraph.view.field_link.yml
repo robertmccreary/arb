@@ -1,0 +1,25 @@
+uuid: 99c1f0f2-75a1-47bf-aefb-54a4e6614883
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link
+    - paragraphs.paragraphs_type.view
+  module:
+    - link
+_core:
+  default_config_hash: pu8vcpcKGdfq7i2Cvo4rnHChZE0YeGIycjLPPQW436g
+id: paragraph.view.field_link
+field_name: field_link
+entity_type: paragraph
+bundle: view
+label: Link
+description: 'Optionally link to another page, e.g. for more content of this type.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

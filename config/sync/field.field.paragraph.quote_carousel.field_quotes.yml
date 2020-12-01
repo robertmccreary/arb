@@ -1,0 +1,90 @@
+uuid: 645990db-3e9c-4dda-962a-cbc719217013
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_quotes
+    - paragraphs.paragraphs_type.quote
+    - paragraphs.paragraphs_type.quote_carousel
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: ODxTf7wKn7EZDlK4HQahxTfaXLQu2RCLIAzf9MYmqaI
+id: paragraph.quote_carousel.field_quotes
+field_name: field_quotes
+entity_type: paragraph
+bundle: quote_carousel
+label: Quotes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      quote: quote
+    target_bundles_drag_drop:
+      quote_carousel:
+        weight: 21
+        enabled: false
+      breaker:
+        weight: 22
+        enabled: false
+      card:
+        weight: 23
+        enabled: false
+      card_list:
+        weight: 24
+        enabled: false
+      embed:
+        weight: 25
+        enabled: false
+      faq:
+        weight: 26
+        enabled: false
+      faq_qa:
+        weight: 27
+        enabled: false
+      featured_card:
+        weight: 28
+        enabled: false
+      featured_item:
+        weight: 29
+        enabled: false
+      form:
+        weight: 30
+        enabled: false
+      from_library:
+        weight: 31
+        enabled: false
+      gallery:
+        weight: 32
+        enabled: false
+      gallery_carousel:
+        weight: 33
+        enabled: false
+      hero_media:
+        weight: 34
+        enabled: false
+      map:
+        weight: 35
+        enabled: false
+      media:
+        weight: 36
+        enabled: false
+      page_title:
+        weight: 37
+        enabled: false
+      quote:
+        enabled: true
+        weight: 38
+      text:
+        weight: 39
+        enabled: false
+      view:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

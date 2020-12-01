@@ -1,0 +1,36 @@
+uuid: 2c364cd8-a89c-47b7-94f3-05cbde4cf481
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.columns.field_column
+    - field.field.paragraph.columns.field_title
+    - paragraphs.paragraphs_type.columns
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: mxDdLDp2pXK6znGvkhlYqHfIFoLUcJ2bf3p15Zi1Fyk
+id: paragraph.columns.default
+targetEntityType: paragraph
+bundle: columns
+mode: default
+content:
+  field_column:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  search_api_excerpt: true

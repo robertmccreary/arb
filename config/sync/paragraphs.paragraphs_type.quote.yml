@@ -1,0 +1,17 @@
+uuid: 51dcd838-2d99-4156-a6e9-00b11bbb895d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://quote.svg'
+_core:
+  default_config_hash: 72XNT0cAehDCPORDy6V5QC322dvcoPPOkUGU2gTR1YI
+id: quote
+label: Quote
+icon_uuid: 76688a5d-045a-4bab-b8fe-9c700aa9f343
+icon_default: null
+description: ''
+behavior_plugins: {  }

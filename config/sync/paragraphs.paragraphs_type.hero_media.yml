@@ -1,0 +1,17 @@
+uuid: 1d6bba7d-4375-4ad5-baec-13715407d322
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://hero-media.svg'
+_core:
+  default_config_hash: 3Y9FrMPc2tjzJK0PFNt7VkenYwsYGXkgIVdiqmtcCkk
+id: hero_media
+label: 'Hero Media'
+icon_uuid: d7f9775b-76a9-4f51-8362-fb2fb9c6b4e6
+icon_default: null
+description: ''
+behavior_plugins: {  }

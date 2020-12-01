@@ -1,0 +1,18 @@
+uuid: 154ab6de-ce3c-4dd6-80d0-5b0a2123bb4b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: JhhxVse3yaa27KT1-B8Jffe14n0wFqdPasCQZ_rRy_g
+id: anonymous
+label: 'Anonymous user'
+weight: -10
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'view search api pages'
+  - 'view terms in authors'
+  - 'view terms in resource'
+  - 'view terms in tags'

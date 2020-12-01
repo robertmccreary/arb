@@ -1,0 +1,12 @@
+uuid: 915b81b9-cabf-4ea3-8322-789d452971ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: QHzdWsBbZ9f1fjiw08BvjFMO_peidE_VppztTtwjHoQ
+id: paragraph.card_nested
+label: 'Card Nested'
+targetEntityType: paragraph
+cache: true

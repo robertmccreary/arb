@@ -1,0 +1,12 @@
+uuid: 64e54958-a4b0-4c8c-bc8d-bb07c3bc2684
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+_core:
+  default_config_hash: B35Xzblkj_zJr3ipe9YcuQzmqYfbaq2cLd8SYyx8dUU
+id: paragraph.breaker
+label: Breaker
+targetEntityType: paragraph
+cache: true

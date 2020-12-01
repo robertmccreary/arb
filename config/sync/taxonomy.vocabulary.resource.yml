@@ -1,0 +1,10 @@
+uuid: 7ad560cc-3c7c-49e2-8608-b9739b959795
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ecSDxHYF0xN6p4La9SvBVhrely248jukEWWZ7TulEEc
+name: Resource
+vid: resource
+description: ''
+weight: 0

@@ -1,0 +1,17 @@
+uuid: 0395ec27-673b-44f6-9c99-d79d98fd19b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://columns.svg'
+_core:
+  default_config_hash: h-VTJZUn-0pJH9KnNom_V6ZnNGsw-FWfSuBZSqhxn60
+id: columns
+label: Columns
+icon_uuid: 6e7abf84-adff-4947-ac2f-4416cdbd94a6
+icon_default: null
+description: 'Add text and other content as evenly divided columns on the page.'
+behavior_plugins: {  }

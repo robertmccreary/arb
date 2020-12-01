@@ -1,0 +1,17 @@
+uuid: 44790781-1fe7-46e2-8add-c7d781ed228b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://quote-carousel.svg'
+_core:
+  default_config_hash: 2usVciKo189NL8WOJdWSPfvKnIZpWCu5dqa2KLQYguc
+id: quote_carousel
+label: 'Quote Carousel'
+icon_uuid: c0b36b75-fbd9-4a58-a301-7b17793870c2
+icon_default: null
+description: ''
+behavior_plugins: {  }

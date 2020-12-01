@@ -1,0 +1,72 @@
+uuid: 807ea9ac-5718-4e0c-8c63-21f7b303d048
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_card
+    - paragraphs.paragraphs_type.breaker
+    - paragraphs.paragraphs_type.card
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: KUAbG7ohjBy0AbLzjJCha9WTQedTQnt7Wp8yBoK70V4
+id: paragraph.breaker.field_card
+field_name: field_card
+entity_type: paragraph
+bundle: breaker
+label: Card
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      card: card
+    target_bundles_drag_drop:
+      breaker:
+        weight: 15
+        enabled: false
+      card:
+        enabled: true
+        weight: 16
+      card_list:
+        weight: 17
+        enabled: false
+      faq:
+        weight: 18
+        enabled: false
+      faq_qa:
+        weight: 19
+        enabled: false
+      form:
+        weight: 20
+        enabled: false
+      gallery:
+        weight: 21
+        enabled: false
+      hero_media:
+        weight: 22
+        enabled: false
+      map:
+        weight: 23
+        enabled: false
+      media:
+        weight: 24
+        enabled: false
+      page_title:
+        weight: 25
+        enabled: false
+      quote:
+        weight: 26
+        enabled: false
+      text:
+        weight: 27
+        enabled: false
+      view:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

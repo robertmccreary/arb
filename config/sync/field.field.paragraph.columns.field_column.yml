@@ -1,0 +1,89 @@
+uuid: 403853cf-8b87-41e3-822c-a9812c1f2ff3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_column
+    - paragraphs.paragraphs_type.block
+    - paragraphs.paragraphs_type.columns
+    - paragraphs.paragraphs_type.embed
+    - paragraphs.paragraphs_type.from_library
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.view
+  module:
+    - entity_reference_revisions
+_core:
+  default_config_hash: lKLbsoSdz9d5kTpJH533M9fu1yJgkO7_R6xXkmK1Sqs
+id: paragraph.columns.field_column
+field_name: field_column
+entity_type: paragraph
+bundle: columns
+label: Column
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      block: block
+      embed: embed
+      from_library: from_library
+      text: text
+      view: view
+    target_bundles_drag_drop:
+      block:
+        enabled: true
+        weight: 18
+      breaker:
+        weight: 19
+        enabled: false
+      card:
+        weight: 20
+        enabled: false
+      card_list:
+        weight: 21
+        enabled: false
+      columns:
+        weight: 22
+        enabled: false
+      embed:
+        enabled: true
+        weight: 23
+      faq:
+        weight: 24
+        enabled: false
+      faq_qa:
+        weight: 25
+        enabled: false
+      form:
+        weight: 26
+        enabled: false
+      from_library:
+        enabled: true
+        weight: 27
+      gallery:
+        weight: 28
+        enabled: false
+      gallery_carousel:
+        weight: 29
+        enabled: false
+      hero_media:
+        weight: 30
+        enabled: false
+      map:
+        weight: 31
+        enabled: false
+      media:
+        weight: 32
+        enabled: false
+      text:
+        enabled: true
+        weight: 33
+      view:
+        enabled: true
+        weight: 34
+field_type: entity_reference_revisions

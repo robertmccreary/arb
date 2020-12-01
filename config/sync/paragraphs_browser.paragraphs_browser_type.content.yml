@@ -1,0 +1,27 @@
+uuid: 0b19576e-9614-4103-b583-2dbd99b14a90
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ytVjH83arJ2_WjTg9fO8_lE95_HzL_7sQF5Mj4bkim8
+id: content
+label: Content
+groups:
+  media:
+    label: Media
+    id: media
+    weight: 0
+  content:
+    label: Content
+    id: content
+    weight: 1
+map:
+  card: content
+  breaker: content
+  card_list: content
+  faq: content
+  text: content
+  media: media
+  gallery: media
+  gallery_carousel: media
+  hero_media: media

@@ -1,0 +1,17 @@
+uuid: e540a2b8-7664-42ce-9302-6c466e768261
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://library.svg'
+_core:
+  default_config_hash: GQl8axN36-EKFtqBX_0utvgXx3PP6TgxPAp0kuCv1Z8
+id: from_library
+label: 'From library'
+icon_uuid: cf4871d0-d2af-4aac-8f22-82d06923b37b
+icon_default: null
+description: null
+behavior_plugins: {  }

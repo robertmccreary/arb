@@ -1,0 +1,17 @@
+uuid: 1074bc3d-fef8-4a4f-bdc8-0cef41d41fa0
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://list-view.svg'
+_core:
+  default_config_hash: pud_Ey6xTb0tLjUoE4TvG7nEh6QOJwflvuU1l-orB_4
+id: view
+label: 'List View'
+icon_uuid: cb911540-3efa-4c92-8b79-88ec79fcf9e5
+icon_default: null
+description: ''
+behavior_plugins: {  }

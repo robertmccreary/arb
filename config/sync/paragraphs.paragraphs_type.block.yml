@@ -1,0 +1,17 @@
+uuid: a99f4600-4629-425e-9b23-4957b43ffc9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://block.svg'
+_core:
+  default_config_hash: PZa5Xt8CN4wsdthHcTJ9uJLS3OFlMJhEELIATCbOChU
+id: block
+label: Block
+icon_uuid: c44a851e-1155-4a5c-87be-a611966d45d7
+icon_default: null
+description: 'Associate a system block.'
+behavior_plugins: {  }

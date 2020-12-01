@@ -1,0 +1,17 @@
+uuid: 2fdf9af5-3fee-4d31-9305-b7224bcd72ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://map.svg'
+_core:
+  default_config_hash: 3AjfZdFzHO82KGh8FQXuG-4B0kHJPHr6N1eclvdEgX8
+id: map
+label: Map
+icon_uuid: cbced9aa-fb04-48e9-bfd9-6bb5fe961ca2
+icon_default: null
+description: 'Embed a map.'
+behavior_plugins: {  }

@@ -1,0 +1,17 @@
+uuid: 1d97afb5-d190-4415-b712-f2027112bc3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://faq.svg'
+_core:
+  default_config_hash: TAACZRPnAOHo3ynV780MiMPNR-gEPHMhDjQhDepCnjs
+id: faq
+label: FAQ
+icon_uuid: 2530ade0-0bf9-4066-87dd-1c01eb1e8a42
+icon_default: null
+description: ''
+behavior_plugins: {  }

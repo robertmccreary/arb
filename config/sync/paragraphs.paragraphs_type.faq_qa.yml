@@ -1,0 +1,17 @@
+uuid: c249c68d-7161-443c-88d2-ebaf3a7d082a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://qa-faq.svg'
+_core:
+  default_config_hash: '--d5cd-BA3KIs3GfyDehTqxAE6VS3MHeSsD-pnFj07s'
+id: faq_qa
+label: 'Q&A'
+icon_uuid: 520c1ab6-0547-409f-b08c-7c65e8df4dd8
+icon_default: null
+description: ''
+behavior_plugins: {  }

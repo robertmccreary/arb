@@ -1,0 +1,17 @@
+uuid: a33dde16-4eec-458b-a00b-62b2fdf01b07
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_browser
+third_party_settings:
+  paragraphs_browser:
+    image_path: 'public://breaker.svg'
+_core:
+  default_config_hash: O789pZNiQUXTZLgQFvdIPx1Swegp75WfO0HNO0qe2gg
+id: breaker
+label: Breaker
+icon_uuid: 65311c33-a43c-4203-86b1-e0686e90d433
+icon_default: null
+description: ''
+behavior_plugins: {  }
